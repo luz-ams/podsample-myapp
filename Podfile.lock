@@ -1,0 +1,38 @@
+PODS:
+  - MyCocoaTouchFramework (1.0.1):
+    - Reusable
+  - PureLayout (3.1.4)
+  - Reusable (4.0.5):
+    - Reusable/Storyboard (= 4.0.5)
+    - Reusable/View (= 4.0.5)
+  - Reusable/Storyboard (4.0.5)
+  - Reusable/View (4.0.5)
+
+DEPENDENCIES:
+  - MyCocoaTouchFramework (from `/Users/Luli/repos/podsample-mycocoatouchframework`)
+  - PureLayout
+  - Reusable (from `https://github.com/AliSoftware/Reusable.git`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - PureLayout
+
+EXTERNAL SOURCES:
+  MyCocoaTouchFramework:
+    :path: "/Users/Luli/repos/podsample-mycocoatouchframework"
+  Reusable:
+    :git: https://github.com/AliSoftware/Reusable.git
+
+CHECKOUT OPTIONS:
+  Reusable:
+    :commit: f948842f7c9b54a4b8dd91ddf063fad084e66c16
+    :git: https://github.com/AliSoftware/Reusable.git
+
+SPEC CHECKSUMS:
+  MyCocoaTouchFramework: a843fa252241e4f8a27004e401a36e29be3875be
+  PureLayout: f08c01b8dec00bb14a1fefa3de4c7d9c265df85e
+  Reusable: 188be1a54ac0691bc66e5bb24ec6eb91971b315b
+
+PODFILE CHECKSUM: 5325ea8486c7b247bc4cbd4108df73d0429b6f88
+
+COCOAPODS: 1.5.3

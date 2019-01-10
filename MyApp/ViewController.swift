@@ -7,14 +7,19 @@
 //
 
 import UIKit
+import MyCocoaTouchFramework
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var avatarView: AvatarView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+
+        guard isViewLoaded else { return }
+        
+        let avatarViewModel = AvatarViewModel(imageName: "cat.png")
+        avatarView.model = avatarViewModel
     }
-
-
 }
 
